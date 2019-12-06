@@ -1,0 +1,8 @@
+plugins {
+    id("com.gradle.enterprise").version("3.1")
+}
+
+rootProject.name = "troubleshooting-with-build-scans"
+
+include("custom-logger")
+include("example-project")

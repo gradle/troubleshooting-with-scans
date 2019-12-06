@@ -1,0 +1,2 @@
+This project exists to demonstrate several types of build problems that build scans (see https://gradle.com) can help to debug.
+This project can be build with the Gradle build tool `./gradlew build` or the maven build tool `./mvnw build`.
