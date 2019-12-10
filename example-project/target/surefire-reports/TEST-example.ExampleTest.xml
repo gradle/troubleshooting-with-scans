@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="example.ExampleTest" time="0.068" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="example.ExampleTest" time="0.006" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_11\jre\bin"/>
@@ -33,7 +33,6 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="maven.repo.local" value="F:/Projects/troubleshooting-with-scans/../../../repo/maven "/>
     <property name="os.version" value="6.3"/>
     <property name="user.home" value="C:\Users\Samuel"/>
     <property name="user.timezone" value="America/Los_Angeles"/>
@@ -63,5 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testJoin" classname="example.ExampleTest" time="0.068"/>
+  <testcase name="testJoin" classname="example.ExampleTest" time="0.006"/>
 </testsuite>
