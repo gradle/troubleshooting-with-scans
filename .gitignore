@@ -4,3 +4,4 @@ out/
 target/
 .idea/
 *.iml
+.mvn/.gradle-enterprise/gradle-enterprise-workspace-id
