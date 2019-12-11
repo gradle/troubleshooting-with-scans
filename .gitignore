@@ -1,7 +1,7 @@
-build/
-out/
+**/build/**
+**/out/**
 .gradle/
-target/
+**/target/**
 .idea/
 *.iml
 .mvn/.gradle-enterprise/gradle-enterprise-workspace-id
