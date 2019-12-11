@@ -6,3 +6,9 @@ rootProject.name = "troubleshooting-with-build-scans"
 
 include("custom-logger")
 include("example-project")
+
+gradleEnterprise {
+    buildScan {
+        publishAlways()
+    }
+}
