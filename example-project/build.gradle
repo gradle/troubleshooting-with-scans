@@ -23,3 +23,19 @@ test {
         events "STANDARD_OUT", "STANDARD_ERROR"
     }
 }
+
+def generateTimestampsProperties = tasks.register("generateTimestampsProperties") {
+    def timestamp = System.currentTimeMillis()
+    def propertiesFile = file('src/main/resources/timestamp.properties')
+
+    inputs.property("timestamp", timestamp)
+    outputs.file propertiesFile
+
+    doFirst {
+        propertiesFile.text = "timestamp=$timestamp"
+    }
+}
+
+compileJava.configure {
+    dependsOn generateTimestampsProperties
+}

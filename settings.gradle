@@ -9,6 +9,8 @@ include("example-project")
 
 gradleEnterprise {
     buildScan {
+        server "https://enterprise-training.gradle.com"
+        captureTaskInputFiles = true
         publishAlways()
     }
 }
