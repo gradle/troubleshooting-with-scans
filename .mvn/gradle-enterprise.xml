@@ -6,6 +6,7 @@
   </server>
   <buildScan>
     <publish>ALWAYS</publish>
+    <captureGoalInputFiles>true</captureGoalInputFiles>
   </buildScan>
   <buildCache>
     <local>
