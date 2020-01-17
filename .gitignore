@@ -5,3 +5,4 @@
 .idea/
 *.iml
 .mvn/.gradle-enterprise/gradle-enterprise-workspace-id
+.DS_Store
