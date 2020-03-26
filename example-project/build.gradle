@@ -2,8 +2,15 @@ plugins {
     id 'java'
 }
 
+repositories {
+    maven {
+        url = project.uri("https://repo.gradle.org/gradle/enterprise-libs-training-local/")
+    }
+}
+
 dependencies {
     implementation project(":custom-logger")
+    runtimeOnly("org.gradle:example-dependency:6.2+")
 
     implementation "org.apache.commons:commons-math3:3.6.1"
     implementation "org.apache.commons:commons-lang3:3.6"
